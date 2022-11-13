@@ -1,0 +1,83 @@
+
+
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+
+
+/* Services */
+
+.my-services .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.service-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+
+.service-item h4 {
+    transition: all 0.5s;
+}
+
+.service-item p {
+    transition: all 0.5s;
+}
+
+.service-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.service-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.service-item:hover p {
+    color: #4a4a4a;
+}
+
+.service-item .service-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.service-item .ui {
+    background-image: url(../images/ui-ux.png);
+}
+
+.service-item:hover .ui {
+    background-image: url(../images/ui-ux.png);
+}
+
+.service-item .javascript {
+    background-image: url(../images/javascript.png);
+}
+
+.service-item:hover .javascript {
+    background-image: url(../images/javascript.png);
+}
+
+.service-item .php {
+    background-image: url(../images/php.png);
+}
+
+.service-item:hover .php {
+    background-image: url(../images/php.png);
+}
+
+
+.service-item .html {
+    background-image: url(../images/html.png);
+}
+
+.service-item:hover .html {
+    background-image: url(../images/html.png);
+}
